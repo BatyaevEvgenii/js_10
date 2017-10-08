@@ -1,0 +1,137 @@
+nav {
+    float: right;
+    position: relative;
+    z-index: 1000;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+  
+  .dropdown>li>a:hover, .dropdown-menu>li>a:focus {
+    font-size: .8125rem;
+    font-weight: 700;
+    line-height: 1.8125rem;
+    text-transform: uppercase;
+    color: #2b8dd9;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1.875rem;
+    position: relative;
+    }
+
+    .dropdown>li {
+        margin: 0;
+        padding: 0;
+        float: left;
+        display: table;
+        height: 5.625rem;
+        position: relative;
+    }
+
+    .dropdown>li>a {
+        font-size: .8125rem;
+        font-weight: 700;
+        color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 1.875rem;
+        position: relative;
+    }
+
+.slide-button{
+    min-width: 15em;
+    border: .125em solid #fff;
+    border-radius: 12.5em;
+    color: #fff;
+    font-size: .8125em;
+    font-weight: 700;
+    line-height: 3.75em;
+    display: inline-block;
+    text-align: center;
+    margin: 1.875em 1.25em 1.875em 0;
+}
+
+.slide-button:hover {
+    background: #fff;
+    color: #1f3542;
+}
+
+.button-store-main{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    position: relative;
+    height: 0;
+    z-index: 10;
+}
+
+.button-store {
+    color: #fff;
+    display: inline-block; 
+    background-color: #203e51;
+    position: relative;
+    padding: 1.625rem 3.125rem 1.5625rem 3.75rem;
+    border-right: .25rem solid #1f3542;  
+    
+}   
+
+.button-store-windows {
+    color: #fff;
+    display: inline-block; 
+    background-color: #203e51;
+    position: relative;
+    padding: 1.625rem 3.125rem 1.5625rem 3.75rem;
+    
+}   
+
+
+.button-store:hover,
+.button-store-windows:hover {
+    background: #2b8dd9;
+    text-decoration: none;
+}
+
+/* .team{
+    display: inline-block;
+} */
+
+.team>li{
+    display: table-cell;
+}
+
+.sky{
+    border-right: 20px solid #fff;
+}
+
+.box{
+    box-shadow: 0 0 20px rgba(1,1,1,.09);
+}
+
+.person{
+    overflow: hidden;border-radius: 50%;position: relative;
+}
+
+.site-footer {
+    margin: 0;
+    padding: 6.25rem 0 5.625rem;
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background: #1f3542 url(../img/footer-bg.png) no-repeat 50%;
+    background-size: cover;
+    color: #fff;
+}
+
+.site-logo {
+    display: table;
+    height: 5.625rem;
+    color: #fff;
+    font-size: 2.1875rem;
+    font-weight: 500;
+    line-height: 1.6875rem;
+} 
