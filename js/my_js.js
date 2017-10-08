@@ -91,7 +91,12 @@ function range(start, end) {
 
 function reverseArray(a, b, c){
     let arrayA = [];
+    let arrayB = [];
     arrayA.push(a, b, c);
-    console.log(arrayA);
-
+    // проверка содержимого массива А
+    // console.log(arrayA);
+    for (let i = arrayA.length - 1; i >= 0; i--){
+        arrayB.push(arrayA[i]);
+    }
+    console.log(arrayB);
 }
